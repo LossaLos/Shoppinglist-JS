@@ -1,0 +1,56 @@
+body{
+    background: rgb(26,55,4);
+background: linear-gradient(90deg, rgba(26,55,4,1) 0%, rgba(0,113,68,1) 50%, rgba(26,55,4,1) 100%);
+    font-family: cursive;
+    color: white;
+}
+
+.title{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.shopping-list {
+    width: 50%;
+    margin: 0 auto;
+    border: black solid 5px;
+    border-radius: 50px;
+    height: auto;
+    width: 30%;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(37,60,25,1) 50%, rgba(0,0,0,1) 100%);
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  ul {
+    
+    padding: 50px;
+  }
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  button {
+    background-color: #6b0800;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.addd{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.addbutton {
+    background-color: rgb(0, 102, 22);
+    margin-left: 10px;
+}
+
+
